@@ -1,0 +1,139 @@
+/* main.css */
+:root{font-size:16px;}
+.radius_Box {width:250px; height:250px; border-radius:125px; background-color: #fff;
+             font-weight: bold; font-size:18px;}
+
+/* #wrap ========================================================================== */
+#wrap {width:1200px; height:auto; 
+       min-height: 300px; margin:auto;}
+
+#up_nav {width:100%; height:50px; padding:10px; box-sizing: border-box; font-weight: bold;}
+  #up_nav ul {float:left; width:842px; height:50px;}
+  #up_nav ul > li {float:left; width:200px; height:40px; text-align: center;}
+
+  .language {float:right; width:200px; height:40px; text-align:center;}
+
+/* #headBox ========================================================================== */
+#headBox {position:fixed; z-index:1000;
+          width:1200px; height:100px; color:#333; text-align:center;}
+  .menu {width:100%; height:100px; padding:10px; padding-top:0; box-sizing: border-box;}
+    h1 {float:left; width:200px; height:80px; padding-top:30px; font-size:16pt; color:#fff;}
+
+    .gnb {float:right; width:942px; height:80px;}
+    .gnb ul { padding:10px; box-sizing : border-box; color:#fff;}
+    .gnb ul > li {float:left; margin-right:4px; width:150px; height:60px;}
+      .gnb dl {width:100%; height:auto; padding-top:10px; text-align: center;}
+      .gnb dt {width:100%; height:30px; 
+               padding:5px; box-sizing: border-box; font-weight:bold;}
+      .gnb dd {width:100%; height:auto; display:none;}
+      .gnb dd > ul {width:100%; height:auto;}
+      .gnb dd > ul li {width:100%; height:30px;}
+
+      .gnb a {display: block; width:100%; height:100%; line-height:40px; }
+      .gnb a:hover,
+      .gnb a:focus {font-weight:bold; color:#87cefa;} 
+      .gnb ul > li:last-child {margin-right:0}
+      .gnb li:hover dd {display: block; }
+
+/* #viewBox ========================================================================== */
+#viewBox {width:100%; height:850px; background-color: #004771; text-align:center; color:#ccc;}
+  p {padding-top: 350px; font-size:25pt;}
+  h2 {font-size:55pt;}
+
+/* #guideBox ========================================================================== */
+#guideBox {width:100%; height:850px; background-color: #288cFF;}
+  .guide_title {width:650px; height:500px; padding-left:20px; float:left;}
+  .guide_title h3 {float:left; padding-top:400px; font-size:55pt;}
+  .guide_title p {font-size:20pt;}
+
+  .guide_area {float:right; margin-right:50px; margin-top:180px; 
+               width:472px; height:612px; text-align:center;}
+    .guide_01 {float:left; width:250px; height:250px; border-radius:125px; background-color: #fff;}
+    .guide_02 {float:right; margin-top:-62px; width:250px; height:250px; 
+               border-radius:125px; background-color: #fff;}
+    .guide_03 {margin-top:360px; width:250px; height:250px; 
+               border-radius:125px; background-color: #fff;}
+
+/* #infoBox ========================================================================== */
+#infoBox {width:100%; height:850px; background-color: #288cd2; color:#fff;}
+  .info_title {float:right;}
+  .info_title h3 {float:right; padding-right:110px; padding-top:200px; font-size:55pt;}
+
+  .info_area {float:right; margin-top:50px; margin-right:110px;
+              width:980px; height:300px;}
+    .info_time {float:left; width:480px; height:300px; 
+                border-radius:40px; background-color: #eee; }
+      .info_01 {margin-left:20px; font-weight: bold; font-size:30px; color:#333;}
+      .info_02 {margin-left:20px; font-weight: bold; font-size:35px; color:#333;}
+      .info_03 {margin-left:20px; font-weight: bold; font-size:20px; color:#004771;}
+
+    .info_pay {float:right; width:480px; height:300px; 
+               border-radius:40px; background-color: #eee;}
+
+      .info_pay_01 {float:left; width:208px; height:48px;
+                    background-color: #fff; color:#004771; font-weight: bold; font-size:20px;
+                    border-radius:12px; margin-left:20px;}
+      .info_pay_02 {float:right; width:208px; height:48px;
+                    background-color: #fff; color:#004771; font-weight: bold; font-size:20px;
+                    border-radius:12px; margin-right:20px;}
+
+/* #programBox ========================================================================== */
+#programBox {width:100%; height:850px; background-color: #004771; }
+  .program_title {width:500px; height:500px; padding-left:40px; float:left; color:#fff;}
+    .program_title h3 {float:left; padding-top:400px; font-size:55pt;}
+    .program_btn {width:150px; height:40px; border-radius:12px; font-size:15pt; 
+                color:#fff; font-weight:bold; border-width: 2px; border: 2px solid #fff; }
+
+    .program_btn:hover {background-color: #ccc;}
+
+  .program_area {float:right; margin-right:50px; margin-top:180px; 
+               width:472px; height:612px; text-align:center;}
+    .program_01 {float:left;}
+    .program_02 {float:right; margin-top:-62px;}
+    .program_03 {margin-top:360px; width:250px;}
+
+/* #noticeBox ========================================================================== */
+#noticeBox {width:100%; height:850px; background-color: #AABACC; color:#fff;}
+  .notice_title {float:right;}
+  .notice_title h3 {float:right; padding-right:150px; padding-top:200px; font-size:55pt;}
+
+  .notice_area {margin:auto; padding-top:50px; width:904px; height:408px;}
+    .area_noticeBox {float:left; width:440px; height:192px; 
+                     border-radius:40px; background-color: #eee; }
+    .area_eventBox {float:right; width:440px; height:192px; 
+                    border-radius:40px; background-color: #eee;}
+    .area_festivalBox {float:left; width:440px; height:192px; margin-top:20px;
+                       border-radius:40px; background-color: #eee;}
+    .area_presentBox {float:right; width:440px; height:192px; margin-top:20px;
+                      border-radius:40px; background-color: #eee;}
+
+
+/* #footBox =============s============================================================= */
+
+#footBox {width:100%; height:300px; background-color:#6F7985;}
+  .footer_Box {margin:auto; width:904px; height:56px; background-color: #fff;}
+    .snsBox{float:left; margin:9px; margin-left: 520px; 
+            width:96px; height:38px; }
+      .sns{float:left; margin-left:10px; border-radius: 19px;
+           width:38px; height:38px; background-color: #ccc;}
+
+    .family_site_Box{float:right; margin:9px; border-radius: 12px;
+                     width:224px; height:38px; background-color: #ccc;}
+      
+
+
+  .footer_logo {float:left; margin-top:30px; margin-left:150px;
+                width:110px; height:110px; background-color: #fff; border-radius: 12px;}
+  .footer_service {float:left; margin-left:10px; margin-top:30px; 
+                   width:534px; height: 56px; background-color: #fff; padding-top:20px; box-sizing:border-box; border-radius: 12px;}
+    .footer_service > ul {float:left; width:inherit; height:inherit;}
+    .footer_service > ul > li {float:left; margin-left:1px;  
+                               width:84px; height:20px; 
+                               border-right:2px solid #ccc; 
+                               border-left:2px solid #ccc;
+                               text-align: center; font-size:10px; }
+  .footer_recruitment {float:right; margin-right:150px; margin-top:30px; 
+                       width:230px; height: 56px; background-color: #fff; border-radius: 12px;}
+  .footer_com_info {float:left; margin-left:10px; margin-top: 10px; 
+                    width:534px; height: 72px; background-color: #fff; border-radius: 12px;}
+    .footer_com_info > span {margin-left:10px; font-size:10px;}
